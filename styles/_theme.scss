@@ -1,0 +1,82 @@
+@supports not (font-variation-settings: 'wdth' 115) {
+  @font-face {
+    font-family: 'Crimson Pro';
+    font-display: swap;
+    src: url('/fonts/Crimson_Pro/webfonts/crimson-pro-v13-latin-regular.woff2')
+      format('woff2');
+    font-style: normal;
+  }
+
+  @supports (font-variation-settings: 'wdth' 115) {
+    @font-face {
+      font-family: 'Crimson Pro';
+      font-display: swap;
+      src: url('/fonts/Crimson_Pro/variable/CrimsonPro-VariableFont_wght.ttf')
+        format('truetype-variations');
+      font-style: normal;
+      font-weight: 100 900;
+    }
+  }
+}
+
+@supports not (font-variation-settings: 'wdth' 115) {
+  @font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    src: url('/fonts/PublicSans/webfonts/PublicSans-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    src: url('/fonts/PublicSans/webfonts/PublicSans-SemiBold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    src: url('/fonts/PublicSans/webfonts/PublicSans-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+@supports (font-variation-settings: 'wdth' 115) {
+  @font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    src: url('/fonts/PublicSans/variable/Public-Sans-Roman-VF.ttf')
+      format('truetype-variations');
+    font-style: normal;
+    font-weight: 100 900;
+  }
+}
+
+$font-branding: 'Crimson Pro', cursive;
+$font-headline: 'Crimson Pro', sans-serif;
+$font-sans: 'Open Sans', sans-serif;
+
+$masthead-background: rgb(255, 64, 64);
+$main-homepage-background: $white;
+$main-homepage-icon-color: $black;
+$main-homepage-icon-border: $black;
+$main-page-text-color: $gray-35;
+$main-page-btn-color: $gray-45;
+$search-container-background: #e6e2e2;
+$search-container-hover: $gray-70;
+$btn-homepage-background: $white;
+$btn-homepage-border: $black;
+$btn-default-background: $white;
+$btn-default-background-hover: $accent;
+$btn-default-border: $black;
+$btn-default-text-color: $black;
+$btn-default-text-hover: $black;
+$btn-user-initial: $white;
+$elem-link-color: $gray-50;
+$elem-active-link-color: $gray-50;
+$elem-link-accent: $accent;
+$nav-text-color: $gray-40;
