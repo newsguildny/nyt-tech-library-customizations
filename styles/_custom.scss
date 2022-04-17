@@ -1,4 +1,4 @@
-$accent: rgb(255, 64, 64);
-$accent-light: lighten($accent, 25%);
-$accent-lightest: #FCF6F6;
-$accent-dark: darken($accent, 15%);
+.masthead .container .branding .branding-heading .branding-heading-link .logo {
+  filter: none;
+  border-radius: 50%;
+}
