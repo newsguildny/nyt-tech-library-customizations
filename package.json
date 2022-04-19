@@ -1,0 +1,22 @@
+{
+  "name": "library-customization",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Customizations for NYT Tech Guild Library instance",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nytimes/library-customization-example.git"
+  },
+  "author": "The New York Times",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nytimes/library-customization-example/issues"
+  },
+  "homepage": "https://github.com/nytimes/library-customization-example#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^3.2.3"
+  }
+}
