@@ -17,6 +17,6 @@
   "homepage": "https://github.com/nytimes/library-customization-example#readme",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^2.0.0"
   }
 }
