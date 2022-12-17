@@ -7,7 +7,7 @@ branding:
   icon: /library/assets/images/Guild-Stamp.png
 
 landing:
-  quicklink: <a href="/library/get-started">Get Started.</a>
+  quickLink: <a href="/library/get-started">Get Started.</a>
 
 error:
   403:
