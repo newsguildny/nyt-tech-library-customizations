@@ -1,5 +1,5 @@
 {
-  "name": "library-customization",
+  "name": "nyt-tech-library-customization",
   "private": true,
   "version": "1.0.0",
   "description": "Customizations for NYT Tech Guild Library instance",
@@ -7,7 +7,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nytimes/library-customization-example.git"
+    "url": "git+https://github.com/newsguildny/nyt-tech-library-customization.git"
   },
   "author": "The New York Times",
   "license": "Apache-2.0",
