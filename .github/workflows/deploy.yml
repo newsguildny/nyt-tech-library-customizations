@@ -34,9 +34,9 @@ jobs:
           echo GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS >> .env
           echo CUSTOMIZATION_GIT_REPO=$CUSTOMIZATION_GIT_REPO >> .env
           echo DRIVE_ID=$DRIVE_ID >> .env
-          echo GOOGLE_CLIENT_ID >> .env
-          echo GOOGLE_CLIENT_SECRET >> .env
-          echo SESSION_SECRET >> .env
+          echo GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID >> .env
+          echo GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET >> .env
+          echo SESSION_SECRET=$SESSION_SECRET >> .env
           echo PATH_PREFIX=$PATH_PREFIX >> .env
 
           echo $LIBRARY_SA_CREDENTIALS | base64 -d > ./server/.auth.json
