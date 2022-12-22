@@ -4,11 +4,11 @@ branding:
   org: The New York Times Tech Guild
   orgDomain: nytimesguild.org
   favicon: /favicon-32x32.webp
-  icon: /library/assets/images/Guild-Stamp.png
+  icon: /tech/library/assets/images/Guild-Stamp.png
 
 landing:
-  quickLink: <a href="/library/get-started">Get Started.</a>
+  quickLink: <a href="/tech/library/get-started">Get Started.</a>
 
 error:
   403:
-    message: "<p>The page you're trying to access is forbidden. Please try <a href=\"/library/login\">logging in</a> with another account, or contact your organization's administrators for assistance.</p>"
+    message: "<p>The page you're trying to access is forbidden. Please try <a href=\"/tech/library/login\">logging in</a> with another account, or contact your organization's administrators for assistance.</p>"
