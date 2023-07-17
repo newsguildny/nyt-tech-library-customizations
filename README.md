@@ -46,5 +46,4 @@ instead, the Action clones the Library repo and configures this repo as the
 customization repo.
 
 The Action configures the deployed environment via a `.env` file. The values
-are all either hard coded or stored in GitHub Repository Secrets. It then uses
-the GCloud CLI to deploy the app.
+are all either hard coded or stored in GitHub Repository Secrets. It then uses the GCloud CLI to deploy the app.
