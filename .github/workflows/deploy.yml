@@ -22,9 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "PWD: $(pwd)\n" && echo $(ls -a)
+          echo "PWD: $(pwd)" && echo $(ls -a)
           npm ci
-          echo "PWD: $(pwd)\n" && echo $(ls -a)
+          echo "PWD: $(pwd)" && echo $(ls -a)
 
       - name: Build for GCP
         run: |
@@ -44,9 +44,9 @@ jobs:
 
           echo $LIBRARY_SA_CREDENTIALS | base64 -d > ./server/.auth.json
           
-          echo "PWD: $(pwd)\n" && echo $(ls -a)
+          echo "PWD: $(pwd)" && echo $(ls -a)
           npm run gcp-build
-          echo "PWD: $(pwd)\n" && echo $(ls -a)
+          echo "PWD: $(pwd)" && echo $(ls -a)
 
         env:
           NODE_ENV: production
